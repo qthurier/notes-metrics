@@ -1,0 +1,14 @@
+{
+  "Statement": [
+    {
+		"Effect": "Allow",
+		"Action": [
+			"ssm:GetParameter",
+			"secretsmanager:GetSecretValue"
+		],
+		"Resource": [
+			"arn:aws:secretsmanager:us-east-1:569629947473:secret:notes-metrics-BiZXXq"
+		]
+	}
+  ]
+}
